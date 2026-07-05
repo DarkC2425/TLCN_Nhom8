@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+    Loại trừ các file nhạy cảm khỏi backup
+    Bao gồm: shared preferences chứa credentials, database keys, etc.
+    -->
+    <exclude domain="sharedpref" path="secure_db_config.xml" />
+    <exclude domain="database" path="." />
+    <exclude domain="file" path="." />
+</full-backup-content>

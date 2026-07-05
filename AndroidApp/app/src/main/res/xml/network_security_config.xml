@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tạo file này trong res/xml/network_security_config.xml -->
+<network-security-config>
+    <!-- Chặn tất cả cleartext traffic theo mặc định -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Cho phép cleartext cho localhost và development -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain> <!-- Android Emulator host -->
+    </domain-config>
+
+    <!--
+    Cấu hình cho production server (thay your-server.com bằng domain thật)
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">your-server.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">base64-encoded-pin-here==</pin>
+            <pin digest="SHA-256">backup-pin-here==</pin>
+        </pin-set>
+    </domain-config>
+    -->
+</network-security-config>

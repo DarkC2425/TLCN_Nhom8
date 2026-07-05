@@ -1,0 +1,13 @@
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Không backup dữ liệu nhạy cảm lên cloud -->
+        <exclude domain="sharedpref" path="secure_db_config.xml" />
+        <exclude domain="database" path="." />
+    </cloud-backup>
+
+    <device-transfer>
+        <!-- Không transfer dữ liệu nhạy cảm khi chuyển thiết bị -->
+        <exclude domain="sharedpref" path="secure_db_config.xml" />
+        <exclude domain="database" path="." />
+    </device-transfer>
+</data-extraction-rules>

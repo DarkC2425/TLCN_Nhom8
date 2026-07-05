@@ -1,0 +1,57 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Secure Messenger</string>
+    <string name="secure_messenger">Secure Messenger</string>
+    <string name="app_logo">App Logo</string>
+    <string name="app_icon">App Icon</string>
+
+    <!-- Login Activity -->
+    <string name="login_subtitle">Đăng nhập để tiếp tục</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="enter_username">Nhập tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+    <string name="enter_password">Nhập mật khẩu</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="login">Đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="dont_have_account">Chưa có tài khoản?</string>
+    <string name="register_now">Đăng ký ngay</string>
+
+    <!-- Main Activity -->
+    <string name="chat_output">Kết quả mã hóa</string>
+    <string name="clear">Xóa</string>
+    <string name="waiting_for_messages">Chờ tin nhắn…</string>
+    <string name="enter_message">Nhập tin nhắn</string>
+    <string name="type_message">Nhập tin nhắn của bạn…</string>
+    <string name="send">Gửi</string>
+    <string name="char_count">0 / 10000 ký tự</string>
+    <string name="settings">Cài đặt</string>
+    <string name="info">Thông tin</string>
+    <string name="demo_info">Demo Double Ratchet: Alice gửi tin nhắn đã mã hóa, Bob nhận và giải mã</string>
+
+    <!-- Toast Messages -->
+    <string name="empty_message">Vui lòng nhập tin nhắn</string>
+    <string name="message_too_long">Tin nhắn quá dài (tối đa 10000 ký tự)</string>
+    <string name="encryption_error">Lỗi mã hóa/giải mã</string>
+    <string name="connection_error">Không thể kết nối đến database</string>
+    <string name="database_error">Lỗi kết nối database</string>
+    <string name="error_occurred">Đã xảy ra lỗi</string>
+    <string name="login_failed">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="account_locked">Tài khoản đã bị khóa</string>
+    <string name="account_disabled">Tài khoản đã bị vô hiệu hóa</string>
+    <string name="invalid_username">Tên đăng nhập phải từ 3-50 ký tự</string>
+    <string name="invalid_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="invalid_characters">Chỉ cho phép chữ, số và gạch dưới</string>
+
+    <!-- Security -->
+    <string name="encryption_initialized">Mã hóa đã được khởi tạo</string>
+    <string name="initialization_error">Lỗi khởi tạo</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="loading">Đang tải…</string>
+    <string name="please_wait">Vui lòng chờ…</string>
+</resources>
